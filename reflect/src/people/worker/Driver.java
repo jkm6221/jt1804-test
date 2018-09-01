@@ -1,0 +1,35 @@
+package people.worker;
+
+public class Driver {
+	private int hp;
+	private int length;
+	private String name;
+	private int price;
+	public void work() {
+		System.out.println("Driver is driveing");
+	}
+	public int getHp() {
+		return hp;
+	}
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+	public int getLength() {
+		return length;
+	}
+	public void setLength(int length) {
+		this.length = length;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+}
